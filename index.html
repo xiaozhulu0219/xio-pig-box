@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xio猪推箱子</title>
+    <link href="./img/ao9z8-0ute4-001.ico" rel="shortcut icon">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+        }
+        .container{
+            margin :50px auto;
+            height: 540px;
+            width: 405px;
+            background-color:rgb(227,227,227);
+            position: relative;
+        }
+        .container .item{
+            position: absolute;
+            height: 45px;
+            width: 45px;
+        }
+        .item.wall{
+            background-image: url(./img/wall.jpg);
+        }
+        .item.Box{
+            background-image: url(./img/box.png);
+        }
+        .item.correctBox{
+            background-image: url(./img/over_box.png);
+        }
+        .item.player{
+            background-image: url(./img/猪头.webp);
+            background-size: contain;
+        }
+        .item.correct{
+            box-sizing: border-box;
+            border: 2px solid rgb(24,151,24)
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="item wall"></div>
+        <div class="item Box"></div>
+        <div class="item correctBox"></div>
+        <div class="item player"></div>
+         -->
+        <!-- <div class="item correct">
+
+        </div> -->
+    </div>
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>
